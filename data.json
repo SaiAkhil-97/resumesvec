@@ -1,5 +1,22 @@
 {
   "carreer":{
     "info":"I want to succeed in a stimulating and challenging environment that will provide me with advancement opportunities.."
-  }
+  },
+  "education":[
+    {
+      "degree":"ssc",
+      "school name":"prakasam vidhyalaya",
+      "data":["2013","9.5"]
+    },
+    {
+      "degree":"Intermediate",
+      "college name":"sri chaitanya junior college",
+      "data":["2015","95%"]
+    },
+    {
+      "degree":"graduation",
+      "college name":"SVEC",
+      "data":["2019","7.28"]
+    }
+  ]
 }
