@@ -1,5 +1,5 @@
 body{
-  background: #ddd;
+  background: #0D0C0C;
 }
 .flex-parent{
   display: flex;
@@ -9,7 +9,7 @@ body{
 .profile{
   width: 30%;
   height: auto;
-  background: #fff;
+  background: #FFEBC;
   margin: 2%;
   padding: 1%;
   border: 2px solid #000;
@@ -18,7 +18,7 @@ body{
 .content{
   width: 70%;
   height: auto;
-  background: #fff;
+  background: #FFEBCD;
   margin: 2%;
   padding: 1%;
   border: 2px solid #000;
@@ -35,4 +35,79 @@ p{
 }
 a{
   text-decoration: none;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: 100%;
+    height: auto;
+    background: #00f;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+  .content{
+    width: 100%;
+    height: auto;
+    background: #FFEBCD;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:720px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: 100%;
+    height: auto;
+    background: #e4cc68;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+  .content{
+    width: 100%;
+    height: auto;
+    background: #FF0;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width:761px) and (max-width:1024px){
+  .flex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .profile{
+    width: 50%;
+    height: auto;
+    background: #FFD700;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+  .content{
+    width: 50%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
 }
