@@ -23,8 +23,8 @@ body{
   margin: 2%;
   padding: 1%;
   border: 2px solid #000;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
 }
 img{
   display: block;
@@ -112,4 +112,7 @@ a{
     border: 2px solid #000;
     border-radius: 20px;
   }
+}
+table{
+  background: #fff;
 }

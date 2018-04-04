@@ -5,18 +5,41 @@
   "education":[
     {
       "degree":"ssc",
-      "school name":"prakasam vidhyalaya",
+      "school":"prakasam vidhyalaya",
       "data":["2013","9.5"]
     },
     {
       "degree":"Intermediate",
-      "college name":"sri chaitanya junior college",
+      "school":"sri chaitanya junior college",
       "data":["2015","95%"]
     },
     {
       "degree":"graduation",
-      "college name":"SVEC",
+      "school":"SVEC",
       "data":["2019","7.28"]
     }
+  ],
+  "skills":[
+    {
+      "name":"operating system",
+      "info":["windows","ubuntu","fedora"]
+    },
+    {
+      "name":"programming languages",
+      "info":["c","c++","java"]
+    },
+    {
+      "name":"Databases",
+      "info":["oracle","mysql","mongoDB"]
+    },
+    {
+      "name":"web technologies",
+      "info":["html","css","javascript","php"]
+    },
+    {
+      "name":"Frameworks",
+      "info":["bootstrap",".net"]
+    }
+    
   ]
 }
